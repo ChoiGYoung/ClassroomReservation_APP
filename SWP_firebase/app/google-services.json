@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "263391437646",
+    "firebase_url": "https://timetable-374701-default-rtdb.firebaseio.com",
+    "project_id": "timetable-374701",
+    "storage_bucket": "timetable-374701.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263391437646:android:4ba5d95e74ea76ebfbb41f",
+        "android_client_info": {
+          "package_name": "com.cookandroid.swp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263391437646-6473p431d4ii9bdchpkq0e31ioq8kejm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cookandroid.swp",
+            "certificate_hash": "2dff77e35689721afcb28cb025580655f48b755a"
+          }
+        },
+        {
+          "client_id": "263391437646-orq78vfvp0t4e3mo2kd7ae9poma8p621.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFDs-yjH8oLIjnu9owcEsntGpsR6W_f_A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263391437646-orq78vfvp0t4e3mo2kd7ae9poma8p621.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

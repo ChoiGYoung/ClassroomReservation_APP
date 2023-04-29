@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tx1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="건물명"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:src="@drawable/simbol2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <Button
+            android:id="@+id/btnClass"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="2dp"
+            android:layout_weight="5"
+            android:background="@drawable/bin_violet"
+            android:text="강의실\n조회"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnTime"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="2dp"
+            android:layout_weight="5"
+            android:background="@drawable/bin_violet"
+            android:text="시간표\n조회"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

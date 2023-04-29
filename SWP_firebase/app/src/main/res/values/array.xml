@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="f_3_array">
+        <!-- 만우관 -->
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="f_4_array">
+        <!-- 샬롬채플관 -->
+        <item>1</item>
+    </string-array>
+
+    <string-array name="f_7_array">
+        <!-- 송암관 -->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="f_8_array">
+        <!-- 소통관 -->
+        <item>1</item>
+    </string-array>
+
+    <string-array name="f_10_array">
+        <!-- 한울관 -->
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="f_17_array">
+        <!-- 해오름관 -->
+        <item>2</item>
+    </string-array>
+
+    <string-array name="f_18_array">
+        <!-- 장준하통일기념관 -->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+    <string-array name="f_20_array">
+        <!-- 늦봄관 -->
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+</resources>

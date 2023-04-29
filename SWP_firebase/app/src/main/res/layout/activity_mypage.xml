@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="30dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="My page"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_margin="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="이름"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameShow"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="학번"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/idShow"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp"
+        android:weightSum="10">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:text="예약 내역"
+            android:inputType="textPersonName"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8.5"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:inputType="textPersonName"/>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:layout_margin="40dp"
+        android:background="@drawable/bin_violet"
+        android:textSize="18dp"
+        android:id="@+id/btnCheck"
+        android:text="확인"/>
+
+
+</LinearLayout>
